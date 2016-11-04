@@ -4,10 +4,16 @@
         <title>Try bower</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
         
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/moment/min/moment.min.js"></script>
+        <script>
+            (function(){
+                var date = moment('20111031', 'YYYYMMDD').fromNow();
+                console.log(date);
+            })();
+        </script>
     </body>
 </html>
