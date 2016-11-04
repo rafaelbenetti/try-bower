@@ -1,0 +1,25 @@
+{
+  "name": "try-bower",
+  "version": "1.0.0",
+  "description": "Get start with bower.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelbenetti/try-bower.git"
+  },
+  "keywords": [
+    "bower"
+  ],
+  "author": "Rafael de Oliveira Benetti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelbenetti/try-bower/issues"
+  },
+  "homepage": "https://github.com/rafaelbenetti/try-bower#readme",
+  "devDependencies": {
+    "bower": "^1.7.0"
+  }
+}
